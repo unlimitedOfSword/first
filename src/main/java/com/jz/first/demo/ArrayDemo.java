@@ -38,6 +38,11 @@ public class ArrayDemo {
 		Map<String, Object> map = new HashMap<>();
 		map.put("1","q");
 		Stack stack = new Stack();
+
+
+
+
+
 	}
 
 	@Override

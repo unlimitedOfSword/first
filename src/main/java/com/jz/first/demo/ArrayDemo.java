@@ -1,6 +1,7 @@
 package com.jz.first.demo;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicReference;
 
 public class ArrayDemo {
 	public static void main(String[] args) {
@@ -39,9 +40,7 @@ public class ArrayDemo {
 		map.put("1","q");
 		Stack stack = new Stack();
 
-
-
-
+		AtomicReference<Thread> owner = new AtomicReference<>();
 
 	}
 
